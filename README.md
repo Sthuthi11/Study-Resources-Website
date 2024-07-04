@@ -1,2 +1,2 @@
 # StudyResources_Website
-A website providing study resources.
+A website providing useful study resources.

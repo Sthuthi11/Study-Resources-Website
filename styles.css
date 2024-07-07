@@ -130,3 +130,53 @@ a {
 a:hover {
   color: #f9efde;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    .subject-block {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .section .subject-block ul li {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 5px;
+        margin: 5px auto;
+    }
+
+    .subject-block {
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .subject-block ul li {
+        margin-bottom: 6px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}

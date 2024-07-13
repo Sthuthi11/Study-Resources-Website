@@ -16,7 +16,7 @@ header {
     color: #FFD7BE;
     padding: 10px;
     background-image: none; 
-    height:100px;
+    height: 100px;
 }
   
 .icon {
@@ -27,9 +27,10 @@ header {
     overflow: hidden;
 }
   
- header h1 {
-  margin: 0; 
-  margin-left: 7px;
+header h1 {
+    margin: 0; 
+    margin-left: 7px;
+    font-size: 2em;
 }
 
 section {
@@ -44,15 +45,18 @@ section h2 {
     margin-top: 0;
     text-align: center;
     color: #FFD7BE;
+    font-size: 2em;
 }
 
-section h3{
+section h3 {
     color: #debb7b;
+    font-size: 1.5em;
 }
 
 section p {
     color: #a2690e;
     text-align: center;
+    font-size: 1.2em;
 }
 
 section .subject-block {
@@ -65,11 +69,13 @@ section .subject-block {
 
 section .subject-block h3 {
     margin-top: 0;
+    font-size: 1.5em;
 }
 
 section .subject-block p {
     color: #a2690e;
     margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 section .subject-block ul {
@@ -119,16 +125,16 @@ section#about {
 .subject-block:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-  }
+}
 
 a {
-  color: #f2cb9fd0;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #f2cb9fd0;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #f9efde;
+    color: #f9efde;
 }
 
 @media (max-width: 768px) {
@@ -140,11 +146,12 @@ a:hover {
 
     .icon {
         margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
     }
 
-    .subject-block {
-        padding: 10px;
-        margin: 10px 0;
+    header h1 {
+        font-size: 1.5em;
     }
 
     section {
@@ -152,15 +159,56 @@ a:hover {
         margin: 10px auto;
     }
 
-    .section .subject-block ul li {
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    section h3 {
+        font-size: 1.3em;
+    }
+
+    section p {
+        font-size: 1.1em;
+    }
+
+    .subject-block {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .subject-block h3 {
+        font-size: 1.3em;
+    }
+
+    .subject-block p {
+        font-size: 1.1em;
+    }
+
+    .subject-block ul li {
         margin-bottom: 8px;
     }
 }
 
 @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
     section {
         padding: 5px;
         margin: 5px auto;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section h3 {
+        font-size: 1.2em;
+    }
+
+    section p {
+        font-size: 1em;
     }
 
     .subject-block {
@@ -168,15 +216,15 @@ a:hover {
         margin: 8px 0;
     }
 
-    .subject-block ul li {
-        margin-bottom: 6px;
-    }
-
-    header h1 {
+    .subject-block h3 {
         font-size: 1.2em;
     }
 
-    section h2 {
-        font-size: 1.5em;
+    .subject-block p {
+        font-size: 1em;
+    }
+
+    .subject-block ul li {
+        margin-bottom: 6px;
     }
 }

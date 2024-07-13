@@ -12,12 +12,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3E201A;
+    background-color: #5C4F3A;
     color: #FFD7BE;
     padding: 10px;
     background-image: none; 
     height:100px;
-  }
+}
   
 .icon {
     width: 50px; 

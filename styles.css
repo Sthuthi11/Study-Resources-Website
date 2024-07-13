@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('bg.jpg');
     background-size: cover; 
-    background-color: #222;
+    background-color: #333;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -12,13 +12,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3E201A;
+    background-color: #453A2F;
     color: #FFD7BE;
     padding: 10px;
     background-image: none; 
     height:100px;
-  }
-  
+}
+
 .icon {
     width: 50px; 
     height: 50px; 
@@ -26,8 +26,8 @@ header {
     border-radius: 50%; 
     overflow: hidden;
 }
-  
- header h1 {
+
+header h1 {
   margin: 0; 
   margin-left: 7px;
 }
@@ -35,10 +35,9 @@ header {
 section {
     padding: 20px;
     margin: 20px auto;
-    background-color: rgba(73, 54, 23, 0.8);
+    background-color: rgba(93, 74, 43, 0.8);
     border-radius: 10px;
     max-width: 800px;
-    text-align: center;
 }
 
 section h2 {
@@ -48,18 +47,18 @@ section h2 {
 }
 
 section h3{
-    color: #debb7b;
+    color: #e5c07b;
 }
 
 section p {
-    color: #a2690e;
+    color: #b38d6b;
     text-align: center;
 }
 
 section .subject-block {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: rgba(62, 32, 10, 0.8);
+    background-color: rgba(82, 62, 33, 0.8);
     border-radius: 5px;
     text-align: center;
 }
@@ -69,7 +68,7 @@ section .subject-block h3 {
 }
 
 section .subject-block p {
-    color: #a2690e;
+    color: #b38d6b;
     margin-bottom: 10px;
 }
 
@@ -79,23 +78,23 @@ section .subject-block ul {
 }
 
 section .subject-block ul li {
-    color: #a2690e;
+    color: #b38d6b;
     margin-bottom: 5px;
 }
 
 section .subject-block ul li a {
-    color: #f2cb9fd0;
+    color: #f5d7be;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 section .subject-block ul li a:hover {
-    color: #f9efde;
+    color: #fbe7d4;
 }
 
 section#about {
-    background-color: rgba(62, 32, 10, 0.8);
-    color: #debb7b;
+    background-color: rgba(82, 62, 33, 0.8);
+    color: #e5c07b;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -108,40 +107,28 @@ section#about {
 }
 
 .pdf-container {
-    width: 100%;
-    height: 0;
-    padding-bottom: 75%;
-    position: relative;
-}
-
-.pdf-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .download-link {
     display: block;
     margin-top: 10px;
-    transition: color 0.3s ease;
 }
 
 .subject-block:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-  }
+}
 
 a {
-  color: #f2cb9fd0;
+  color: #f5d7be;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #f9efde;
+  color: #fbe7d4;
 }
 
 @media (max-width: 768px) {

@@ -1,2 +1,2 @@
-# A Study Resources Website
+
 

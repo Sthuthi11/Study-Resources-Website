@@ -1,3 +1,3 @@
-A simple website which provides useful study resources for IV Sem ISE students of my college (GitHub Pages Site)
+A simple study resources website
 
 🔗 https://sthuthi11.github.io/Study-Resources-Website/
